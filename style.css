@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 30px 50px;
+}
+
+body{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+    padding: 25px;
+}
+
+.nv{
+    width: 40%;
+}
+
+.absolue{
+    width: 25%;
+    position: relative;
+    left: 80%;
+    bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(163, 160, 160);
+}
+
+.number{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.number-1{
+    position: relative;
+    left: 37%;
+    bottom: 25px;
+    font-weight: bold;
+}
+
+.epaisseur{
+    font-weight: bold;
+}
+
+.bordure{
+    border: 5px solid rgb(84, 224, 159);
+    padding: 15px 10px;
+    border-radius: 50%;
+}
+
+.sexe{
+    display: flex;
+    gap: 10px;
+}
+
+/*img{
+    border: 2px solid black;
+    width: 190px;
+    height: 350px;
+    position: relative;
+    bottom: 25%;
+    left: 35%;
+}*/
+
+.position{
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 40%;
+    left: 25%;
+    padding: 15px 15px 5px 15px;
+    box-shadow: 0px 0px 5px rgb(163, 160, 160);
+}
+
+strong{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.couleur{
+    color: blue;
+}
+
+.bouton{
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gauche{
+    border: 2px solid rgb(73, 198, 214);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloc1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inscrit{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.connecter{
+    color: blue;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 90px 25px 10px 12px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(163, 160, 160);
+}
+
+.langue{
+    border: none;
+    outline: none;
+}
+
+.header-droite{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+h1{
+    box-sizing: border-box;
+    font-size: 70px;
+}
+
+.lien {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 80%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.stg{
+    color: blue;
+}
