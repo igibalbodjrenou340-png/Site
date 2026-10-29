@@ -241,3 +241,87 @@ a{
         padding: 0px 15px;
     }
 }
+
+@media (max-width:412px) {
+    .gauche{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .absolue{
+        position: relative;
+        left: 25%;
+        width: 55%;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width:440px) {
+    .gauche{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .absolue{
+        position: relative;
+        left: 25%;
+        width: 55%;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .gauche{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .absolue{
+        position: relative;
+        left: 25%;
+        width: 55%;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width:1032px) {
+    .gauche{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .absolue{
+        position: relative;
+        left: 25%;
+        width: 55%;
+        padding: 0px 15px;
+    }
+}
